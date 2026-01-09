@@ -1,7 +1,7 @@
 /* Header Section  */
 h1{
     color: rgb(7, 62, 113);
-    font-size: 29px;
+    font-size: 20px;
 }
 marquee{
     color:rgb(9, 84, 84);
@@ -17,8 +17,8 @@ footer,nav{
 }
 a{
     color:white;
-    font-size: 20px;
-    margin-left: 7px;
+    font-size: 15px;
+    margin-left: 5px;
 
 }
 /* Main section  */
