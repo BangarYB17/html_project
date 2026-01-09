@@ -1,0 +1,63 @@
+/* Header Section  */
+h1{
+    color: rgb(7, 62, 113);
+    height:20px;
+}
+marquee{
+    color:rgb(9, 84, 84);
+    background-color: bisque;
+}
+
+/* Navigation bar and Footer section  */
+footer,nav{
+    color:white;
+    height:40px;
+    width:100%;
+    background-color:rgb(7, 62, 113) ;
+
+}
+a{
+    color:white;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+/* Main section  */
+h2,h3{
+    color:rgb(7, 62, 113);
+}
+button{
+    background-color:rgb(7, 62, 113) ;
+    color:white;
+    height:30px;
+    width:150px;
+    font-size: 15px;
+}
+pre{
+    font-family:'Times New Roman', Times, serif;
+}
+
+hr{
+    color:rgba(100, 94, 94, 0.977);
+    size:3;
+}
+/* About table */
+caption{
+    color:rgb(7, 62, 113);
+}
+thead{
+    color:rgb(3, 108, 108);
+    background-color:rgb(240, 221, 153);
+}
+tbody{
+    color:rgb(240, 221, 153);
+    background-color:rgb(3, 108, 108);
+    
+}
+table{
+    height:200px;
+    width:350px;
+}
+td{
+    margin-left: 15px;
+}
