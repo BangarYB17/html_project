@@ -1,12 +1,13 @@
 /* Header Section  */
 h1{
     color: rgb(7, 62, 113);
-    font-size: 18px;
+    font-size: 30px;
     text-shadow: 4px 4px 4px rgb(218, 165, 68);
     text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 p{
-    margin-top:1px;
     text-align: center;
 }
 hr{
@@ -89,4 +90,8 @@ table{
 td{
     margin-left: 15px;
 }
-
+.img-size{
+    height:300px;
+    width:300px;
+    margin: auto;
+}
