@@ -1,8 +1,8 @@
 /* Header Section  */
 h1{
     color: rgb(7, 62, 113);
-    font-size: 30px;
-    text-shadow: 4px 4px 4px rgb(218, 165, 68);
+    font-size: 20px;
+    text-shadow: 4px 4px 4px rgb(218, 165, 31);
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
@@ -55,6 +55,7 @@ button{
     width:150px;
     font-size: 15px;
     text-align: center;
+    border: none;
 }
 iframe,button{
     display: block;
