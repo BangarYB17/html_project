@@ -40,6 +40,7 @@ footer,nav{
 #foot{
     margin-top: 5px;
     padding-top: 1px;
+    font-size: 13px;
 }
 a{
     margin-top: 10px;
@@ -71,10 +72,7 @@ pre{
     font-family:'Times New Roman', Times, serif;
     text-align: center;
 }
-ul,ol{
-    width: fit-content;
-    margin: auto;
-}
+
 /* About table */
 caption{
     color:rgb(7, 62, 113);
