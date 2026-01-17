@@ -34,13 +34,19 @@ footer,nav{
     width:100%;
     background-color:rgb(7, 62, 113) ;
     text-align: center;
+    padding-top: 15px;
 
+}
+#foot{
+    margin-top: 5px;
+    padding-top: 1px;
 }
 a{
     margin-top: 10px;
     color:white;
     font-size: 17px;
     margin-left: 6px;
+    text-decoration: none;
 
 }
 /* Main section  */
@@ -95,4 +101,48 @@ td{
     height:300px;
     width:300px;
     margin: auto;
+}
+.hero{
+    height:500px;
+    width: 100%;
+    background-image: url("/images/hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+/* .hero_text{
+    text-align: right;
+    
+} */
+.test{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+figcaption{
+    color:rgb(7, 62, 113);
+    text-align: center;
+}
+.contact{
+    background-color:rgb(240, 221, 153);
+    height: 150px;
+    width:400px;
+    margin-left: 550px;
+    margin-bottom: 20px;
+    box-shadow: 7px 7px 7px rgb(7, 62, 113);
+}
+#c_text{
+    padding-top: 30px;
+}
+#map{
+    height: 400px;
+    width: 400px;
+}
+#g_map{
+    height: 400px; 
+    width: 400px;
+    border: none;
+}
+#space{
+    padding-top: 200px;
 }
