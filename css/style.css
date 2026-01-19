@@ -142,21 +142,21 @@ figcaption:hover{
 .contact{
     background-color:rgb(240, 221, 153);
     height: 150px;
-    width:400px;
-    margin-left: 550px;
-    margin-bottom: 20px;
+    width:300px;
+    margin: auto;
     box-shadow: 7px 7px 7px rgb(7, 62, 113);
 }
 #c_text{
     padding-top: 30px;
+    
 }
 #map{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 }
 #g_map{
-    height: 400px; 
-    width: 400px;
+    height: 300px; 
+    width: 300px;
     border: none;
 }
 #space{
