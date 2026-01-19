@@ -50,10 +50,16 @@ a{
     text-decoration: none;
 
 }
+a:hover{
+    color:rgb(255, 115, 0);
+}
 /* Main section  */
 h2,h3{
     color:rgb(7, 62, 113);
     text-align: center;
+}
+h2:hover{
+    color:rgb(255, 115, 0);
 }
 button{
     background-color:rgb(7, 62, 113) ;
@@ -63,6 +69,11 @@ button{
     font-size: 15px;
     text-align: center;
     border: none;
+}
+button:hover{
+    color:rgb(7, 62, 113);
+    background-color: white;
+    border:2px solid gray; 
 }
 iframe,button{
     display: block;
@@ -99,6 +110,7 @@ td{
     height:300px;
     width:300px;
     margin: auto;
+    box-shadow: 6px 6px 9px rgb(32, 117, 197);
 }
 .hero{
     height:500px;
@@ -120,6 +132,12 @@ td{
 figcaption{
     color:rgb(7, 62, 113);
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+figcaption:hover{
+    color:rgb(255, 115, 0);
+
 }
 .contact{
     background-color:rgb(240, 221, 153);
