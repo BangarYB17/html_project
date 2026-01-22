@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-html, body {
+html, body  {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -18,6 +18,7 @@ html, body {
     height:80px;
     width:100px;     
 } */
+
 h1{
     color: rgb(7, 62, 113);
     font-size: 30px;
@@ -46,6 +47,9 @@ p{
     text-align: center;
     margin-top: 2px;
 }
+.main{
+    margin-top: 0px;
+}
 
 /* hr{
     margin-top: 1px;
@@ -67,7 +71,8 @@ h4{
 }
 
 /* Navigation bar and Footer section  */
-nav{
+nav{ 
+   
     color:white;
     height:50px;
     width:100%;
@@ -78,7 +83,7 @@ nav{
     text-align:center;
     /* padding-left: 12px; */
     padding-top: 13px;
-    
+    z-index:1000;
 }
 #menu{
     padding-left: 10px;
@@ -208,7 +213,7 @@ td{
     background-repeat: no-repeat;
     background-position:100% 100%;
     background-size:cover;
-    
+    margin-top:-30px;
 }
 #hero_p{
     font-weight: 500;
@@ -322,9 +327,44 @@ input:focus{
 }
 .social_icons  a{
     margin-left: 15px;
-    color:rgb(7, 62, 113);
-    font-size: 25px;
+    font-size: 30px;
 }
+.fa-facebook { color: #1877F2; }
+.fa-instagram  { color: #E4405F; }
+.fa-x-twitter   { color: #0a0707; }
+.fa-whatsapp   { color: #0dc20a; }
+.fa-youtube    { color: #FF0000; }
 .social_icons a:hover{
    color:rgb(255, 115, 0)
+}
+@media (min-width:100px) and (max-width:614px){
+    h1{
+        font-size: 20px;
+    }
+    .hero{
+        height:400px;
+        width: 100%;
+        background-image: url("/images/hero.png");
+        background-repeat: no-repeat;
+        background-position:100% 100%;
+        background-size:contain;
+        margin-top:-125px;
+    }
+    #space{
+        padding-top: 200px;
+    }
+}
+@media (min-width:840px) {
+    .hero{
+       height:550px;
+       width: 100%;
+       background-repeat: no-repeat;
+       background-position:100% 100%;
+       background-size:cover;
+       /* margin-top:-125px; */
+    } 
+    #space{
+        padding-top: 225px;
+    }
+  
 }
